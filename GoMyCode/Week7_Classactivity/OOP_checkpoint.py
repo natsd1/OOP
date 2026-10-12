@@ -1,3 +1,9 @@
+class Account:
+    def __init__(self, account_number: str, account_balance: float, account_holder: str):
+        self.account_number = account_number
+        self.account_balance = account_balance
+        self.account_holder = account_holder
+
 
     def deposit(self, amount_deposited: float):
         deposit = self.account_balance + amount_deposited
